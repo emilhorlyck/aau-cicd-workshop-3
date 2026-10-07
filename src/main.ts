@@ -17,7 +17,7 @@ app.innerHTML = `
   <p class="date">${_.escape(site.date)} ${site.year}</p>
   <form id="order">
     <label>Tickets <input name="quantity" type="number" min="0" max="50" value="1" /></label>
-    <label><input name="student" type="checkbox" /> I'm a student</label>
+    <label><input name="student" type="checkbox" /> Jeg er studerende </label>
     <p class="total">Total: <output name="total"></output> DKK</p>
   </form>
 `;
